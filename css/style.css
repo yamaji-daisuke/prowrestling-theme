@@ -1,0 +1,35 @@
+html {
+  position: relative; /* sticky footer */
+  min-height: 100%; /* sticky footer */
+  font-size: 62.5%;
+  color: #ccc;
+}
+body {
+  margin-top : 50px;
+  margin-bottom: 50px;
+}
+.bg-basic {
+  background: linear-gradient(-45deg, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.3)), url(http://reco-photo.com/wp-content/uploads/2015/04/hisa-0068.jpg);
+  background-color: #000;
+  background-repeat: no-repeat, no-repeat;
+  background-size:cover, 100% 100%;
+  background-attachment: auto, fixed;
+}
+.font-basic {
+  color: #fff;
+  font-size : 1.5rem;
+  font-family:"游ゴシック", YuGothic, "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "メイリオ", "Meiryo", sans-serif;
+}
+.layout-contents {
+  padding: 20px;
+}
+.layout-contents .row {
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  color: #ccc;
+  background-color: #000;
+}

@@ -1,0 +1,59 @@
+/* navbar 全体背景色とボーダーカラー */
+.navbar {
+  background: linear-gradient(-45deg, rgba(0, 0, 0,  0.6), rgba(0, 0, 0, 0.6));
+  border: 0;
+  margin: 0;
+  height: 50px;
+}
+
+/* スマフォ表示の際のボタンの表示位置 */
+.navbar-toggle {
+  float: left;
+  margin-left: 20px;
+}
+
+/* navbar hover,focus時のテキストカラー */
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  font-size: 2.0rem;
+  text-shadow:0 0 0 rgba(255, 255, 255, 0);
+  color: #000;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* navbar active設定時の背景色とテキストカラー */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #eee;
+  font-size: 2.5rem;
+  font-weight: bold;
+  background: transparent;
+  border-bottom: 2px solid rgba(255, 215, 0, 0.3);
+}
+
+/* navbar テキストカラー */
+.navbar-default .navbar-nav > li > a {
+  font-size: 2.0rem;
+  color: #ccc;
+}
+
+/* スマフォ表示の際のハンバーガー四角枠 */
+.navbar-default .navbar-toggle {
+  border: 2px solid #fff;
+}
+/* navbar ハンバーガー三本線 */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+/* navbar ハンバーガーボタン,タップとホバーした時の背景色とボーダー */
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+  border: 2px solid #fff;
+  background-color: #fff;
+}
+/* navbar ハンバーガー三本線, タップとホバーした時の色 */
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+  background-color: #000;
+}
